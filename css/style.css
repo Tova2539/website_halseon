@@ -1,0 +1,123 @@
+
+:root {
+    --independenceGray: #525b76;
+  }
+
+/*                   *\
+  BOOTSTRAP OVERRIDES
+\*                   */
+
+/* btn-outline-info */
+.btn-outline-info, .btn-outline-info:visited {
+    border-color: rgba(117,187,101, 1) !important;
+    color: rgba(117,187,101, 1) !important;
+}
+
+.btn-outline-info:hover, .btn-outline-info:active {
+    background-color: rgba(117,187,101, 0.5) !important;
+    border-color: rgba(117,187,101, 0.0) !important;
+    color: var(--independenceGray) !important;
+}
+
+/* btn-info */
+.btn-info, .btn-info:visited {
+    background-color: rgba(117,187,101, 0.5) !important;
+    border-color: rgba(117,187,101, 0.25) !important;
+}
+
+.btn-info:hover, .btn-info:active {
+    background-color: rgba(117,187,101, 1) !important;
+    border-color: rgba(117,187,101, 0.0) !important;
+}
+
+/* Borders */
+.rounded {
+    border-radius: 1rem !important;
+}
+
+
+
+
+
+
+/*           *\
+   index.html
+\*           */
+
+/* General */
+.nav-bar-icon {
+    max-height: 75px;
+}
+
+.why-halseon-height {
+    min-height: 100vh;
+}
+
+.payment-container-size {
+    height: 100vh;
+}
+
+.payments-header {
+    font-size: 25;
+    font-weight: 400;
+}
+
+.payments-price {
+    font-size: 25;
+}
+.payment-text {
+    font-size: 15;
+}
+
+.payments-content {
+    font-size: 15;
+}
+
+.footer-icon {
+    max-height: 75px;
+}
+
+/* Generic */
+.bg-dark-50 {
+    background-color: rgba(33,37,41,0.25);
+}
+
+.p-payments-divider {
+    padding: 1px;
+}
+
+.text-independenceGray {
+    color: var(--independenceGray);
+}
+
+/* Showcase Setting Screens */
+@media (min-width: 1300px) {
+    .showcase-height {
+        height: 100vh;
+    }
+}
+
+/* LARGE Screens */
+@media (min-width: 768px) {
+    .caption-img {
+        max-height: 500;
+        /* justify-content: center; */
+    }
+    
+    .lg-caption-img {
+        max-height: 500;
+        /* justify-content: center; */
+    }
+
+    .showcase-img {
+        max-width: 100vw;
+    }
+
+    .showcase-bg {
+        background-image: url(../assets/img/showcase_img.png);
+    }
+
+    .showcase-height {
+        height: 100vh;
+    }
+}
