@@ -86,6 +86,10 @@
     max-height: 75px;
 }
 
+.social-icon {
+    max-height: 30px;
+}
+
 /* Generic */
 .bg-dark-50 {
     background-color: rgba(33,37,41,0.25);
@@ -103,6 +107,13 @@
 @media (min-width: 1300px) {
     .showcase-height {
         height: 100vh;
+    }
+}
+
+/* MEDIUM Screens */
+@media (max-width: 768px) {
+    .body-padding {
+        padding-top: 140px;
     }
 }
 
@@ -128,5 +139,9 @@
 
     .showcase-height {
         height: 100vh;
+    }
+
+    .w-md-100 {
+        width: 100% !important;
     }
 }
