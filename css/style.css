@@ -53,6 +53,15 @@
     min-height: 100vh;
 }
 
+.why-icons {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.caption-txt {
+    font-weight: 200;
+}
+
 .payment-container-size {
     height: 100vh;
 }
