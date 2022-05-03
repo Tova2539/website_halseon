@@ -1,10 +1,14 @@
 <html lang="en">
     <head>
+        <!-- Required Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Custom Links -->
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="shortcut icon" href="./assets/img/favicon.ico">
+
         <title>Halseon</title>
     </head>
 
@@ -340,62 +344,11 @@
         <!-- Request Info -->
         <section class="bg-light" id="contact">
             <div class="container py-5">
-                <div class="row d-flex-nowrap align-items-center h-75">
-                    <div class="row d-flex-nowrap justify-content-center align-items-md-start">
-                        <div class="col-md-4 col-12 px-5">
+                <div class="col d-flex-nowrap align-items-center">
+                    <div class="row d-flex-nowrap justify-content-center align-items-md-center">
+                        <div class="col-12 px-5">
                             <h1>Request Info</h1>
-                            <p class="lead caption-txt">Our Sales team will get back to you to figure out how we can best help your business.</p>
-                        </div>
-                        <div class="col-md-8 col-12">
-                            <form id="contact-form">
-                                <div class="row d-flex justify-content-md-center text-md-start text-center">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="firstNameInput">First Name</label>
-                                            <input type="text" class="form-control" id="firstNameInput" name="firstNameInput" placeholder="John">
-                                        </div> <!-- First Name -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="surNameInput">Surname</label>
-                                            <input type="text" class="form-control" id="surNameInput" name="surNameInput" placeholder="Doe">
-                                        </div> <!-- SurName -->
-                                    </div>
-                                </div>
-                                <div class="row d-flex justify-content-center text-md-start text-center">
-                                    <div class="col-md-6">
-                                        <div class="form-group w-100">
-                                            <label for="emailInput">Email</label>
-                                            <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="name@example.com">
-                                        </div> <!-- Email -->
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group w-100">
-                                            <label for="phoneInput">Phone</label>
-                                            <input type="number" class="form-control" id="phoneInput" name="phoneInput"placeholder="(12) 3456-7890">
-                                        </div> <!-- Phone -->
-                                    </div>
-                                </div>
-                                <div class="row d-flex justify-content-center text-md-start text-center">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="businessInput">Business / Company</label>
-                                            <input type="text" class="form-control" id="businessInput" name="businessInput" placeholder="Business">
-                                        </div> <!-- Business -->
-                                    </div>
-                                </div>
-                                <div class="row d-flex justify-content-center text-md-start text-center">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="messageInput">Message</label>
-                                            <textarea type="text" class="form-control" id="messageInput" placeholder="Message" id="message" name="message"></textarea>
-                                        </div> <!-- Message -->
-                                    </div>
-                                </div>
-                                <div class="container text-end p-0">
-                                    <button type="submit" class="btn btn-info my-4" onclick="validateForm();">Submit</button>
-                                </div>
-                            </form>
+                            <p class="lead caption-txt">We are currently in development. If you are interested in updates, information, or testing please contact our sales team at <b>sales@halseon.com</b> and we will get back to you as soon as possible!</p>
                         </div>
                     </div>
                 </div>
@@ -414,7 +367,7 @@
                     </div>
                     <div class="col-12 col-md-6 row d-flex-nowrap my-4 my-md-0 align-items-between order-md-2 order-1">
                         <div class="col-12 d-flex justify-content-center justify-content-md-end align-items-end px-5">
-                            <div class="row text-center">
+                            <!-- <div class="row text-center">
                                 <div class="col-4">
                                     <a href="https://www.facebook.com/halseonsng" target="_blank" rel="noopener noreferrer"><img src="./assets/socials/facebook.png" alt="Halseon Facebook" class="social-icon"></a>
                                 </div>
@@ -424,11 +377,11 @@
                                 <div class="col-4">
                                     <a href="https://www.facebook.com/halseonsng" target="_blank" rel="noopener noreferrer"><img src="./assets/socials/linkedin.png" alt="Halseon Facebook" class="social-icon"></a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-12 d-flex justify-content-center justify-content-md-end align-items-end">
-                            <a href="./assets/downloads/Halseon flyer print version v2.pdf" download="Halseon Technologies Disclaimer & Privacy Policy">
-                                <button class="btn btn-link">Disclaimer & Privacy Policy</button>
+                            <a href="./assets/downloads/Privacy Policy & T+C.pdf" download="Halseon Technologies Disclaimer & Privacy Policy">
+                                <button class="btn btn-link">Terms & Conditions</button>
                             </a>
                         </div>
                     </div>
@@ -439,39 +392,63 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript">
+            $(document).ready(function(){
+                $.ajaxSetup({
+                    headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+            });
+        </script>
+        <script type="text/javascript">
             function validateForm() {
-    console.log('validating');
-    // document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-        'firstName': $('input[name=firstNameInput]').val(),
-        'surname': $('input[name=surNameInput]').val(),
-        'email': $('input[name=emailInput]').val(),
-        'phone': $('input[name=phoneInput]').val(),
-        'business': $('input[name=businessInput]').val(),
-        'message': $('textarea[name=message]').val()
-    };
-    console.log(formData);
+                console.log('validating');
+                // document.getElementById('status').innerHTML = "Sending...";
+                formData = {
+                    'firstName': $('input[name=firstNameInput]').val(),
+                    'surname': $('input[name=surNameInput]').val(),
+                    'email': $('input[name=emailInput]').val(),
+                    'phone': $('input[name=phoneInput]').val(),
+                    'business': $('input[name=businessInput]').val(),
+                    'message': $('textarea[name=message]').val()
+                };
+                console.log(formData);
 
+                console.log('ajax');
+                $.post(
+                    'mail.php',
+                    formData,
+                    function(response) {
+                        console.log("Response: "+response);
+                    }
+                )
+                // $.ajax({
 
-    $.ajax({
-        url: "mail.php",
-        type: "POST",
-        data: formData,
-        success: function (data, textStatus, jqXHR) {
+                //     type: "post",
+                //     url: "./mail.php",
+                //     crossDomain: false,
+                //     data: formData,
 
-            // $('#status').text(data.message);
-            console.log(data.message);
-            if (data.code) // If mail was sent successfully, reset the form.
-                $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-                console.log('success');
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                // $('#status').text(jqXHR);  
-                console.log(jqXHR);
-                console.log('error');
-            }  
-    });
-}
+                //     success: function (data, textStatus, jqXHR) {
+
+                //         // $('#status').text(data.message);
+                //         // console.log(jqXHR);
+                //         console.log(data.message);
+                //         if (data.code)
+                //             // $('#contact-form').closest('form').find("input[type=text], textarea").val(""); // This line resets the form.
+                //             console.log('success');
+                //         },
+
+                //     error: function (jqXHR, textStatus, errorThrown) {
+
+                //         // $('#status').text(jqXHR);  
+                //         console.log(jqXHR);
+                //         console.log('error');
+
+                //     }
+                // });
+                console.log('noajax');
+            }
         </script>  
     </body>
 </html>
